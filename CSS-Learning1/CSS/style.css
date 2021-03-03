@@ -1,0 +1,154 @@
+body {
+    background-color: #f4f4f4;
+    color: #813434;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+button {
+    background-color: gold;
+    color: hotpink;
+    padding: 10px 15px;
+}
+
+button:hover {
+    background-color: lawngreen;
+}
+
+button:active {
+    background-color: mediumblue;
+}
+
+a {
+    text-decoration: none;
+    color: #555555;
+}
+
+a:hover {
+    color: rgb(133, 85, 211);
+}
+
+/* a:visited{
+    color: orangered;
+} */
+
+.clearfix {
+    clear: both;
+}
+
+
+.box1 {
+    background-color: antiquewhite;
+    color: royalblue;
+
+    border: 5px blue solid;
+    border-right: 5px red solid;
+    border-left: 8px blue dashed;
+    border-top: 10px green dotted;
+    border-bottom: 8px firebrick double;
+    border-radius: 35px;
+
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 20px;
+
+    margin-top: 50px;
+}
+
+.box1 h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    word-spacing: 2em;
+
+}
+
+.box2 {
+    position: relative;
+    top: 5px;
+    left: 30px;
+}
+
+.box2 h1 {
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.list li{
+    background-color: forestgreen;
+    list-style-image: url('../img/check.jpg');
+}
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.list2 li:nth-child(even){
+     background-color: palegoldenrod;
+}
+
+.list2 li:first-child{
+    background-color: palevioletred;
+}
+
+.list2 li:nth-child(3){
+    background-color: blue;
+}
+
+.list2 li:nth-child(5){
+    color: blue;
+}
+
+.position-box {
+    width: 500px;
+    height: 500px;
+    border: 2px dashed blue;
+    position: relative;
+
+}
+
+.position-box h1{
+    position: absolute;
+    top: 50px;
+}
+
+.position-box h2{
+    position: absolute;
+    right: 50px;
+}
+
+#fixed {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: royalblue;
+}
