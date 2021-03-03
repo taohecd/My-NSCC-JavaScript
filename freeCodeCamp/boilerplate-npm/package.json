@@ -1,0 +1,25 @@
+{
+	"name": "fcc-learn-npm-package-json",
+	"author": "Jane Doe",
+	"description": "A project that does something awesome",
+	"keywords": [ "freecodecamp", "microservice", "guide" ],
+	"license": "ExampleLicense",
+	"version": "2020-12-01",
+	"dependencies": {
+		"express": "^4.14.0",
+		"johnny-five": "^2.0.0",
+	 
+		"dependency1": "^major.minor.patch"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"engines": {
+		"node": "8.11.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://idontknow/todo.git"
+	}
+}
